@@ -59,7 +59,7 @@ function StudioEditableXBlockMixin(runtime, element) {
                 menubar: false,
                 statusbar: false,
                 toolbar_items_size: 'small',
-                toolbar: "bold italic underline | bullist numlist outdent indent blockquote | link unlink",
+                toolbar: "bold italic underline | bullist numlist outdent indent blockquote",
                 resize: "both",
                 setup : function(ed) {
                     ed.on('change', fieldChanged);

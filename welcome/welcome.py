@@ -16,10 +16,10 @@ class WelcomeXBlock(StudioEditableXBlockMixin, XBlock):
     # Fields are defined on the class.  You can access them in your code as
     # self.<fieldname>.
 
-    course_objectives = String(name="Course Objectives", multiline_editor='html', help="List of course objectives to be done", default="Course Objectives",
+    course_objectives = String(display_name="Course Objectives", name="Course Objectives", multiline_editor='html', help="List of course objectives to be done", resettable_editor=False, default="Course Objectives",
                 scope=Scope.content)
                 
-    teacher_comments = String(name="Extra Comments", multiline_editor='html', help="Extra description from the course runner", default="Extra Comments",
+    teacher_comments = String(display_name="Extra Comments", name="Extra Comments", multiline_editor='html', help="Extra description from the course runner", resettable_editor=False, default="Extra Comments",
                 score=Scope.content)
     
     
