@@ -1,0 +1,10 @@
+/* CSS for WelcomeXBlock */
+
+.indent {
+    margin: auto 5%;
+    /*border: 1px double gray;
+    border-radius: 20px;*/
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1em;
+}

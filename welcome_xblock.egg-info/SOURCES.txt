@@ -1,0 +1,13 @@
+welcome/__init__.py
+welcome/welcome.py
+welcome/static/README.txt
+welcome/static/css/welcome.css
+welcome/static/html/welcome.html
+welcome/static/js/src/welcome.js
+welcome_xblock.egg-info/PKG-INFO
+welcome_xblock.egg-info/SOURCES.txt
+welcome_xblock.egg-info/dependency_links.txt
+welcome_xblock.egg-info/entry_points.txt
+welcome_xblock.egg-info/pbr.json
+welcome_xblock.egg-info/requires.txt
+welcome_xblock.egg-info/top_level.txt
